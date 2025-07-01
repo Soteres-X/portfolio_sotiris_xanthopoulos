@@ -41,7 +41,7 @@ This is my personal web developer portfolio — designed and built to showcase m
 If you'd like to work with me or just say hello:
 
 - 📧 Email: mailto:soteresx.dev@gmail.com
-- 🌐 Portfolio: https://soteres-x.github.io
+- 🌐 Portfolio: https://yourusername.github.io/portfolio-website](https://sotirisxanthopoulos.netlify.app/
 - 🐙 GitHub: https://github.com/Soteres-X
 
 ---
