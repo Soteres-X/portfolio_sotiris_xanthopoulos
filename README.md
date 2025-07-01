@@ -4,7 +4,7 @@ This is my personal web developer portfolio — designed and built to showcase m
 
 ## ✨ Live Demo
 
-👉 [View the live site](https://yourusername.github.io/portfolio-website](https://sotirisxanthopoulos.netlify.app/)
+👉 View the live site: https://yourusername.github.io/portfolio-website](https://sotirisxanthopoulos.netlify.app/
 
 ## 🛠️ Technologies Used
 
@@ -40,9 +40,9 @@ This is my personal web developer portfolio — designed and built to showcase m
 
 If you'd like to work with me or just say hello:
 
-- 📧 Email: [yourname@email.com](mailto:soteresx.dev@gmail.com)
-- 🌐 Portfolio: [soteres-x.github.io](https://soteres-x.github.io)
-- 🐙 GitHub: [Soteres-X](https://github.com/Soteres-X)
+- 📧 Email: mailto:soteresx.dev@gmail.com
+- 🌐 Portfolio: https://soteres-x.github.io
+- 🐙 GitHub: https://github.com/Soteres-X
 
 ---
 
