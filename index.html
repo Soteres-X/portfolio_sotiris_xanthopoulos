@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Sotiris Xanthopoylos</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./styles.css"/>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-chubby/css/uicons-solid-chubby.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-chubby/css/uicons-regular-chubby.css'>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Sotiris Xanthopoulos is a Web Developer skilled in HTML, CSS, JS, Tailwind CSS and more. Explore my portfolio for collaboration or job opportunities. Connect today!">
+    <meta name="publisher" content="Sotirios Xanthopoulos">
+    <meta name="keywords" content="Sotirios Xanthopoulos, Web Development, HTML, CSS, JS, Tailwind CSS, Portfolio, Rethymno, Greece">
+</head>
+<body class="bg-midnightNavy dark:bg-red-900">
+    <aside class="bg-lightMistGray lg:inline fixed hidden w-64 h-screen px-4 py-8 overflow-y-auto border-r bg-gray-900 border-gray-700">
+        <div class="flex flex-col justify-between h-full">
+            <div>
+                <div class="flex flex-col items-center -mx-2">
+                    <img class="object-cover w-24 h-24 mx-2 rounded-full border" src="./images/faceImageTransparent.png" alt="avatar">
+                    <h1 class="mx-2 mt-2 font-medium text-gray-800 animate-slideLeftToRight1">SOTIRIOS XANTHOPOULOS</h1>
+                    <span class="text-sm flex animate-slideLeftToRight2"><img src="./images/calendar.svg" width="15px" class="me-2 mb-1 ">29/12/2004</span>
+                    <span class="text-sm flex animate-slideLeftToRight4"><img src="./images/marker.svg" width="15px" class="me-2 mb-1">Rethymno, Crete</span>
+                </div>
+                <nav class="mt-6 flex flex-col gap-3">
+                    <a href="#aboutMe" id="aboutMeButton" class="button animate-slideLeftToRight1 hover-bg-midnightNavy hover-font-white text-midnightNavy flex justify-start gap-4 rounded-lg py-3 px-3">
+                        <i class="text-md fi fi-rs-user text-lg"></i>
+                        <span class="font-medium">About Me</span>
+                    </a>
+                    <a href="#education" id="educationButton" class="button hover-bg-midnightNavy animate-slideLeftToRight2 hover-font-white text-midnightNavy flex justify-start gap-4 rounded-lg py-3 px-3">
+                        <i class="fi fi-rs-book-bookmark text-lg"></i>
+                        <span class="font-medium">Education</span>
+                    </a>
+                    <a href="#workExperience" id="workExperienceButton" class="button hover-bg-midnightNavy animate-slideLeftToRight3 hover-font-white text-midnightNavy flex justify-start gap-4 rounded-lg py-3 px-3">
+                        <i class="fi fi-rr-suitcase-alt text-lg"></i>
+                        <span class="font-medium">Work Experience</span>
+                    </a>
+                    <a href="#skills" id="skillsButton" class="button hover-bg-midnightNavy hover-font-white text-midnightNavy animate-slideLeftToRight4 flex justify-start gap-4 rounded-lg py-3 px-3">
+                        <img id="skillsImage" src="./images/laptop-code.svg" width="20px">
+                        <span class="font-medium">Skills</span>
+                    </a>
+                    <a href="#projects" id="projectsButton" class="button hover-bg-midnightNavy hover-font-white text-midnightNavy flex animate-slideLeftToRight5 justify-start gap-4 rounded-lg py-3 px-3">
+                        <i class="fi fi-rr-master-plan text-lg"></i>
+                        <span class="font-medium">Projects</span>
+                    </a>
+                </nav> 
+            </div>
+            <div class="mt-2 text-xl animate-slideLeftToRight5">
+                <h4>Get In Touch</h4>
+                <hr/>
+                <div class="flex gap-5 items-center ml-2 mt-2">
+                    <a href="mailto:xanthopoulossoteres112@gmail.com" target="_blank" class="text-sm font-medium text-gray-800 mb-1"><img src="./images/envelope.svg" width="17px"></a>
+                    <a href="https://www.instagram.com/soteresxanthopoulos/" target="_blank"><i class="fa-brands fa-instagram block"></i></a>
+                    <a href="https://x.com/SoteresXan93770" target="_blank"><i class="fa-brands fa-x-twitter block"></i></a>
+                    <a href="https://www.linkedin.com/in/soteres-xanthopoulos-6700622b2/" target="_blank"><i class="fa-brands fa-linkedin block"></i></a>
+                    <a href="https://github.com/SoteresX" target="_blank"><i class="fa-brands fa-github block"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="mt-80">
+            <i class="fi fi-sc-moon text-2xl"></i>
+        </div> -->              
+    </aside>
+    <main class="bg-midnightNavy bg-gray-100 bg-gray-900 animate-slideBottomToTop flex-1 flex flex-col gap-20 pl-5 pr-5 pb-10 px-15 sm:px-15 sm:py-20 md:ml-0 md:py-20 lg:ml-64 lg:py-20 lg:px-30 lg:pt-10 xl:px-40 2xl:px-80">
+        <section class="flex flex-col items-center mt-6 mx-2 text-white lg:hidden relative">
+            <!-- <div class="absolute top-0">
+                <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+                <dotlottie-player src="https://lottie.host/10c5ec3f-bd31-4e4b-aae4-8ec0c81b644c/EIGh0CPCIY.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" autoplay></dotlottie-player>
+            </div> -->
+            <img class="object-cover w-24 h-24 mx-2 rounded-full" src="./images/faceImageTransparent.png" alt="avatar">
+            <h4 class=" text-2xl mx-2 mt-2 font-medium">SOTIRIOS XANTHOPOULOS</h4>
+            <a href="mailto:xanthopoulossoteres112@gmail.com" class="text-md mx-2 mt-1 text-sm font-medium flex"><img src="./images/envelopeWhite.svg" width="15px" class="me-2">xanthopoulossoteres112@gmail.com</a>
+            <span class="text-sm flex"><img src="./images/calendarWhite.svg" width="15px" class="me-2 mb-1">29/12/2004</span>
+            <span class="text-sm flex"><img src="./images/markerWhite.svg" width="15px" class="me-2 mb-1">Rethymno, Crete</span>
+            <div class="flex justify-center gap-5 mt-3">
+                <a href="https://www.instagram.com/soteresxanthopoulos/" target="_blank"><i class="fa-brands fa-instagram flat-icon-big"></i></a>
+                <a href="https://x.com/SoteresXan93770" target="_blank"><i class="fa-brands fa-x-twitter flat-icon-big"></i></a>
+                <a href="https://www.linkedin.com/in/soteres-xanthopoulos-6700622b2/" target="_blank"><i class="fa-brands fa-linkedin flat-icon-big"></i></a>
+                <a href="https://github.com/SoteresX" target="_blank"><i class="fa-brands fa-github flat-icon-big"></i></a>
+            </div>
+        </section>
+        <section id="aboutMe" class="check-viewport flex flex-col">
+            <div class="bg-container rounded-2xl w-full md:px-10 lg:px-5 mx-auto">
+                <div>
+                    <h2 class="text-2xl font-semibold text-gray-800 text-white mb-4">
+                        <i class="text-md fi fi-rs-user"></i>
+                        About Me
+                        <hr>
+                    </h2>
+                    <p class="text-gray-500 text-white max-w-600 lg:pl-10 lg:pr-10 mb-2">My name is SoteresX and I'm a web developer on the field.<br/>
+                        I like developing sites, and constantly learning more and more about Web Development and best practises I can use in my code, to keep it in the best state.
+                        <br/>I look forward to working with you.
+                    </p>
+            </div>
+        </section>
+        <section id="education" class="check-viewport lg:px-5 md:px-10 lg:py-5 mx-auto rounded-2xl w-full">
+            <h2 class="text-2xl font-semibold text-gray-800 text-white mb-4">
+                <i class="fi fi-rs-book-bookmark"></i>
+                Education
+                <hr>
+            </h2>
+            <div class="text-white rounded-xl p-2 lg:px-10">
+                <div class="grid grid-rows-main border rounded-lg p-5 mb-5 hover:bg-sky-800">
+                    <img src="./images/istIcon.png" class="w-full"/>
+                    <div class="ml-2">
+                        <div class="flex justify-between">
+                            <strong class="col-start-2">Web Design / Development</strong>
+                            <i class="text-xs lg:text-sm">February 2025 – Present</i> 
+                        </div>
+                        <h4 class="col-start-2 mb-2">IST College - Diploma</h4>
+                        <p class="pl-4 mb-2">Acquired foundational knowledge in web design, preparing for an entry-level position.</p>
+                        <div class="pl-3">
+                            <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full text-white border border-gray-400">HTML</span>
+                            <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full text-white border border-gray-400">CSS</span>
+                            <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full text-white border border-gray-400">JS</span>
+                            <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full text-white border border-gray-400">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-rows-main border rounded-lg p-5 hover:bg-sky-800">
+                    <img src="./images/udemyIcon.png" class="col-start-1" alt="Udemy Logo"/>
+                    <div class="ml-2">
+                        <div class="flex justify-between">
+                            <strong class="col-start-2">Web Design</strong>
+                            <i class="text-xs lg:text-sm">August 2024 - Present</i> 
+                        </div>
+                        <h5 class="mb-2">Udemy - Web Development Bootcamp</h5>
+                        <p class="pl-4 mb-2">Acquired hands-on experience in front-end and back-end web development, including building responsive websites and dynamic web applications.</p>
+                        <div class="pl-3">
+                            <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full text-white border border-gray-400">HTML</span>
+                            <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full text-white border border-gray-400">CSS</span>
+                            <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full text-white border border-gray-400">JS</span>
+                            <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full text-white border border-gray-400">NodeJS</span>
+                            <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full text-white border border-gray-400">Express</span>
+                            <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full text-white border border-gray-400">npm</span>
+                            <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full text-white border border-gray-400">GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="workExperience" class="check-viewport mx-auto rounded-2xl w-full md:px-10 lg:px-5 lg:py-5">
+            <h2 class="text-2xl font-semibold text-white"><i class="fi fi-rr-suitcase-alt mr-2"></i>Work Experience
+            <hr class="mb-4"></h2>
+            <div class="text-white p-2 lg:px-10">
+                <div class="mb-5">
+                    <div class="grid grid-rows-main border rounded-lg p-5 hover:bg-sky-800">
+                        <img src="./images/supermarketPapadakisIcon.png" class="col-start-1 mt-1" alt="Papadakis Logo"/>
+                        <div class="ml-2">
+                            <div class="flex justify-between">
+                                <strong class="col-start-2">Cashier / Shelf Manager</strong>
+                                <i class="text-xs lg:text-sm text-right">April 2024 – Present</i> 
+                            </div>
+                            <h4 class="mb-2">Super Market Papadakis</h4>
+                            <h5 class="mb-2">Experience In:</h5>
+                            <ul class="list-disc pl-5 lg:pl-10">
+                                <li class="mb-2">Stocked shelves efficiently to ensure product availability</li>
+                                <li class="mb-2">Managed shelf pricing and updated labels accurately</li>
+                                <li class="mb-2">Assisted customers at the cash register, providing excellent service</li>
+                                <li class="mb-2">Maintained cleanliness and organization of store shelves and work areas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-rows-main border rounded-lg p-5 hover:bg-sky-800">
+                    <img src="./images/jumboIcon.png" class="col-start-1 mt-1" alt="Jumbo Logo"/>
+                    <div class="ml-2">
+                        <div class="flex justify-between">
+                            <strong class="col-start-2 w-auto">Cashier / Shelf Manager</strong>
+                            <i class="text-xs lg:text-sm text-right">June 2023 – September 2023</i> 
+                        </div>
+                        <h4 class="mb-2">Jumbo</h4>
+                        <h5 class="mb-2">Experience In:</h5>
+                        <ul class="list-disc pl-5 lg:pl-10">
+                            <li class="mb-2">Stocked shelves efficiently to ensure product availability</li>
+                            <li class="mb-2">Managed shelf pricing and updated labels accurately</li>
+                            <li class="mb-2">Monitored inventory and ordered stock as needed</li>
+                            <li class="mb-2">Maintained cleanliness and organization of store shelves and work areas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="check-viewport md:px-10 lg:px-5 lg:py-5 rounded-2xl">
+            <h2 class="text-2xl font-semibold text-gray-800 text-white flex">
+                <img src="./images/laptop-codeWhite.svg" width="30px" class="me-2">Skills
+            </h2>
+            <hr class="mb-4 text-white"/>
+            <div>
+                <h3 class="text-xl text-white mb-2">Technicals</h3>
+                <ul class="flex sm:flex-col md:gap-5 md:flex-row lg:flex-row items-center flex-wrap pl-10">
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/htmlIcon.png" class="lg:mb-2" alt="HTML Logo" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">HTML</strong>
+                            <div class="w-60 lg:w-40  bg-gray-200 bg-barGradient border border-white rounded-full flex justify-center">
+                                <p class="text-white">Intermediate</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/cssIcon.png" class="lg:mb-2" alt="CSS Logo" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">CSS</strong>
+                            <div class="w-60 lg:w-40 bg-gray-200 bg-barGradient border border-white rounded-full flex justify-center">
+                                <p class="text-white">Intermediate</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/jsIcon.png" class="lg:mb-2" alt="JS Logo" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">JS</strong>
+                            <div class="w-60 lg:w-40  bg-gray-200 bg-barGradient border border-white rounded-full flex justify-center">
+                                <p class="text-white">Beginner</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/tailwindIcon.png" class="lg:mb-2" alt="Tailwind CSS Logo" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">Tailwind CSS</strong>
+                            <div class="w-60 lg:w-40  bg-gray-200 bg-barGradient border border-white rounded-full flex justify-center">
+                                <p class="text-white">Intermediate</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2 ml-2">
+                            <img src="./images/githubIcon.png" class="lg:mb-2" alt="GitHub Icon" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">GitHub</strong>
+                            <div class="w-60 lg:w-40 bg-gray-200 bg-barGradient border border-white rounded-full flex justify-center">
+                                <p class="text-white">Beginner</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex lg:justify-center m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/ejsIcon.png" class="lg:mb-2" alt="EJS Icon" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">EJS</strong>
+                            <div class="w-60 lg:w-40  bg-gray-200 bg-barGradient border border-white rounded-full flex justify-center">
+                                <p class="text-white">Intermediate</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <h3 class="text-xl text-white mb-2">Softs</h3>
+                <ul class="flex sm:flex-col md:gap-5 md:flex-row lg:flex-row items-center flex-wrap pl-10">
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/patienceIcon.png" class="lg:mb-2" alt="Patience Icon" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">Patience</strong>
+                            <div class="w-60 lg:w-40 bg-gray-200 bg-midnightNavy border border-white rounded-full">
+                                <div class="bg-barGradient h-2.5 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/communicationIcon.png" class="lg:mb-2" alt="Communication Icon" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">Communication</strong>
+                            <div class="w-60 lg:w-40 bg-gray-200 bg-midnightNavy border border-white rounded-full">
+                                <div class="bg-barGradient h-2.5 rounded-full" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/teamleadingIcon.png" class="lg:mb-2" alt="Team Leading Icon" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">Team Leading</strong>
+                            <div class="w-60 lg:w-40 bg-gray-200 bg-midnightNavy border border-white rounded-full">
+                                <div class="bg-barGradient h-2.5 rounded-full" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/collaborationIcon.png" class="lg:mb-2" alt="Collaboration Icon" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">Collaboration</strong>
+                            <div class="w-60 lg:w-40 bg-gray-200 bg-midnightNavy border border-white rounded-full">
+                                <div class="bg-barGradient h-2.5 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/problemSolvingIcon.png" class="lg:mb-2" alt="Problem Solving Icon" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">Problem Solving</strong>
+                            <div class="w-60 lg:w-40 bg-gray-200 bg-midnightNavy border border-white rounded-full">
+                                <div class="bg-barGradient h-2.5 rounded-full" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/adaptabilityIcon.png" class="lg:mb-2" alt="Adaptability Icon" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">Adaptability</strong>
+                            <div class="w-60 lg:w-40 bg-gray-200 bg-midnightNavy border border-white rounded-full">
+                                <div class="bg-barGradient h-2.5 rounded-full" style="width:75%"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/curiosityIcon.png" class="lg:mb-2" alt="Adaptability Icon" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">Curiosity</strong>
+                            <div class="w-60 lg:w-40 bg-gray-200 bg-midnightNavy border border-white rounded-full">
+                                <div class="bg-barGradient h-2.5 rounded-full" style="width:90%"></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <h3 class="text-xl text-white mb-2">Languages</h3>
+                <ul class="flex sm:flex-col md:gap-5 md:flex-row lg:flex-row items-center flex-wrap pl-10">
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex lg:justify-center m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/englishIcon.png" class="lg:mb-2" alt="English Flag" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">English</strong>
+                            <div class="w-60 lg:w-40  bg-gray-200 bg-barGradient border border-white rounded-full flex justify-center">
+                                <p class="text-white">Advanced</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/greekIcon.png" class="lg:mb-2" alt="Greek Flag" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">Greek</strong>
+                            <div class="w-60 lg:w-40  bg-gray-200 bg-barGradient border border-white rounded-full flex justify-center">
+                                <p class="text-white">Advanced</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/franceIcon.png" class="lg:mb-2" alt="France Flag" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">French</strong>
+                            <div class="w-60 lg:w-40  bg-gray-200 bg-barGradient border border-white rounded-full flex justify-center">
+                                <p class="text-white">Beginner</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="border border-white rounded-lg p-3 mb-4 hover:bg-sky-800 flex m-0 p-0">
+                        <div class="mt-2">
+                            <img src="./images/japanIcon.png" class="lg:mb-2" alt="Japan Flag" width="25px"/>
+                        </div>
+                        <div class="ml-2">
+                            <strong class="col-start-2 text-white">Japanese</strong>
+                            <div class="w-60 lg:w-40  bg-gray-200 bg-barGradient border border-white rounded-full flex justify-center">
+                                <p class="text-white">Beginner</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="bottom-bar" class="tab-menu fixed z-50 w-full md:px-10 h-18 max-w-lg -translate-x-1/2 bg-white border border-midnightNavy bottom-0 left-1/2 bg-white dark:border-gray-600 lg:hidden transition-transform duration-300 transform translate-y-0 rounded-xl">
+                <div class="grid h-full max-w-lg grid-cols-5 mx-auto">
+                    <a href="#aboutMe" data-tooltip-target="tooltip-home" type="button" class="inline-flex flex-col items-center justify-center px-5 rounded-s-full group">
+                        <i class="text-md fi fi-rs-user text-midnightNavy text-xl pt-2"></i>
+                        <span class="sr-only">Home</span>
+                    </a>
+                    <div id="tooltip-home" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                        About
+                    </div>
+                    <a href="#education" data-tooltip-target="tooltip-wallet" type="button" class="inline-flex flex-col items-center justify-center px-5 group active">
+                        <i class="fi fi-rs-book-bookmark text-midnightNavy text-xl pt-2"></i>
+                        <span class="sr-only">About</span>
+                    </a>
+                    <div id="tooltip-wallet" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                        Education
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <a href="#projects" data-tooltip-target="tooltip-new" type="button" class="inline-flex items-center p-2 justify-center w-12 h-12 font-medium bg-midnightNavy rounded-full">
+                            <i class="fi fi-rr-master-plan pt-2 text-2xl text-white"></i>
+                        </a>
+                    </div>
+                    <div id="tooltip-new" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium bg-white text-white transition-opacity duration-300 rounded-lg shadow-sm opacity-0 tooltip">
+                        Projects
+                        <div class="tooltip-arrow" data-popper-arrow=""></div>
+                    </div>
+                    <a href="#workExperience" data-tooltip-target="tooltip-settings" type="button" class="inline-flex flex-col items-center justify-center px-5 group">
+                        <i class="fi fi-rr-suitcase-alt mr-2 text-midnightNavy text-xl pt-2"></i>
+                        <span class="sr-only">Work Experience</span>
+                    </a>
+                    <div id="tooltip-settings" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                        Work Experience
+                    </div>
+                    <a href="#skills" data-tooltip-target="tooltip-profile" type="button" class="inline-flex flex-col items-center justify-center px-5 rounded-e-full group">
+                        <i class="fi fi-rs-laptop-code text-midnightNavy text-xl pt-2"></i>
+                        <span class="sr-only">Skills</span>
+                    </a>
+                    <div id="tooltip-profile" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                        Skills
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="check-viewport px-6 py-7 mb-100 mx-auto rounded-2xl w-full">
+            <div>
+                <h2 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">
+                    <i class="fi fi-rr-master-plan"></i>
+                    Projects
+                    <hr/>
+                </h2>
+                <div class="max-w-sm rounded overflow-hidden bg-opacity-50 bg-scaleAnim bg-top bg-no-repeat bg-cover bg-[url('./images/pancakeImage.jpg')] hover-bg-scaleAnim shadow-lg bg-pancakeBg bg-cover border rounded-xl">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2 text-white">Pancake Recipe Page</div>
+                        <p class="text-gray-700 text-base text-white">
+                        A page that will immediately find you any recipe that you're looking for.
+                        </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-4">
+                        <span class="inline-block bg-midnightNavy rounded-full px-3 py-1 text-sm font-semibold text-white">#recipes</span>
+                        <span class="inline-block bg-midnightNavy rounded-full px-3 py-1 text-sm font-semibold text-white">#cooking</span>
+                        <span class="inline-block bg-midnightNavy rounded-full px-3 py-1 text-sm font-semibold text-white">#food</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <button onclick="scrollToTop()" id="scrollToTop" class="fixed bottom-28 md:bottom-5 right-5 text-white bg-midnightNavy border border-white dark:text-gray-800 rounded-full p-3 flex items-center justify-center shadow-lg transition-all duration-300 transform z-50 hover:bg-gray-700 dark:hover:bg-gray-200 group translate-x-0 opacity-100">        
+            <i class="fi fi-br-angle-up text-xl h-6 w-6 transform text-white transition-transform duration-300 group-hover:translate-y-[-3px]"></i>      
+        </button>
+        <footer class="top-10 text-white rounded-xl px-3 mt-5 relative md:pb-15 lg:pb-0 xl:pb-0">
+            <div class="container mx-auto flex flex-wrap justify-between">
+                <p class="text-xs text-gray-400 md:text-sm">Developed by Sotirios Xanthopoulos</p>
+                <p class="text-xs text-gray-400">Site Version 2.5</p>
+            </div>
+        </footer>
+    </main>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/0eb8f1e056.js" crossorigin="anonymous"></script>
+</body>
+</html>
